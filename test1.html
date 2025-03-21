@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Center everything horizontally */
+        }
+        .main {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            width: 100%; /* Take full width */
+            max-width: 1200px; /* Set a maximum width */
+            padding: 20px; /* Add some padding */
+        }
+        nav {
+            background: black;
+            padding: 10px;
+            color: white;
+            border: 1px solid white;
+            width: 100%; /* Take full width */
+            max-width: 1000px; /* Match the max-width of .main */
+            margin: 0 auto; /* Center the nav */
+        }
+        nav ul {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            list-style: none;
+            padding: 0; /* Remove default padding */
+            margin: 0; /* Remove default margin */
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: inherit;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div>
+            <h1>MovieRulz</h1>
+            <p>Watch & Download Telugu Hindi Tamil Malayalam Movies Online Free</p>
+        </div>
+        <div>
+            <input type="text" placeholder="Search"><button>Search</button>
+        </div>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="">HOME</a></li>
+            <li><a href="">FEATURED</a></li>
+            <li><a href="">BOLLYWOOD</a></li>
+            <li><a href="">TELUGU</a></li>
+            <li><a href="">TELUGU</a></li>
+            <li><a href="">MALAYALAM</a></li>
+            <li><a href="">HOLLYWOOD</a></li>
+            <li><a href="">DUBBED</a></li>
+            <li><a href="">OTHERS</a></li>
+            <li><a href="">QUALITY</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
